@@ -39,6 +39,18 @@ The html2canvas library utilizes `Promise`s and expects them to be available in 
 support [older browsers](http://caniuse.com/#search=promise) that do not natively support `Promise`s, please include a polyfill such as
 [es6-promise](https://github.com/jakearchibald/es6-promise) before including `html2canvas`.
 
+**import**
+
+```shell
+npm install @crlang/html2canvas
+```
+
+**import**
+
+```js
+import html2canvas from '@crlang/html2canvas'
+```
+
 To render an `element` with html2canvas, simply call:
 ` html2canvas(element[, options]);`
 
